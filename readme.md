@@ -82,8 +82,8 @@ If a pull request targets your repository's default branch and contains changes 
 
 ## Useful Extensions to GHAS
 
-https://github.com/NickLiffen/ghas-enablement
-https://github.com/NickLiffen/GCSMTTR
-https://github.com/GeekMasher/advanced-security-compliance
-https://github.com/GeekMasher/ghas-reviewer-app
+- https://github.com/NickLiffen/ghas-enablement
+- https://github.com/NickLiffen/GCSMTTR
+- https://github.com/GeekMasher/advanced-security-compliance
+- https://github.com/GeekMasher/ghas-reviewer-app
 
