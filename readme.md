@@ -5,6 +5,7 @@ This guide is intended to help you get started with GitHub Advanced Security. Se
 - Introduction to GitHub Advanced Security
 - Private Repository Secret Scanning
 - Code Scanning
+- Useful extensions to GitHub Advanced Security 
 
 ## Introduction to GitHub Advanced Security
 
@@ -78,4 +79,11 @@ The [Code Scanning API](https://docs.github.com/en/free-pro-team@latest/rest/ref
 [About dependency review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-dependency-changes-in-a-pull-request#about-dependency-review). 
 
 If a pull request targets your repository's default branch and contains changes to package manifests or lock files, you can display a dependency review to see what has changed. The dependency review includes details of changes to indirect dependencies in lock files, and it tells you if any of the added or updated dependencies contain known vulnerabilities.
+
+## Useful Extensions to GHAS
+
+https://github.com/NickLiffen/ghas-enablement
+https://github.com/NickLiffen/GCSMTTR
+https://github.com/GeekMasher/advanced-security-compliance
+https://github.com/GeekMasher/ghas-reviewer-app
 
