@@ -33,15 +33,6 @@ Code scanning is a developer-first static application security testing (SAST) pr
 
 Code scanning is powered by the [CodeQL](https://help.github.com/en/github/finding-security-vulnerabilities-and-errors-in-your-code/about-code-scanning#about-codeql) analysis engine to find potential vulnerabilities. Out of the box, Code Scanning includes hundreds of CodeQL queries written + open sourced by the [GitHub Security Lab](https://securitylab.github.com) and leading security researchers to find potential vulnerabilities in your code with minimal configuration.
 
-## Depandabot Version Updates from private GitHub repos
-- https://github.blog/changelog/2020-12-02-dependabot-version-updates-from-private-github-repositories/
-
-## Dependency Review
-
-[About dependency review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-dependency-changes-in-a-pull-request#about-dependency-review). 
-
-If a pull request targets your repository's default branch and contains changes to package manifests or lock files, you can display a dependency review to see what has changed. The dependency review includes details of changes to indirect dependencies in lock files, and it tells you if any of the added or updated dependencies contain known vulnerabilities.
-
 ### Getting Started with Code Scanning
 
 #### Quick start: Code Scanning with **CodeQL Action**
@@ -77,4 +68,14 @@ The [Code Scanning API](https://docs.github.com/en/free-pro-team@latest/rest/ref
 - [Upload a SARIF file](https://docs.github.com/en/free-pro-team@latest/rest/reference/code-scanning#upload-a-sarif-file) containing the results of a code scanning analysis to make the results available in a repository. 
 
 [Code Scanning Alert webhook event](https://docs.github.com/en/free-pro-team@latest/developers/webhooks-and-events/webhook-events-and-payloads#code_scanning_alert) - Activity related to code scanning alerts in a repository. The type of activity is specified in the action property of the payload object.
+
+
+## Depandabot Version Updates from private GitHub repos
+- https://github.blog/changelog/2020-12-02-dependabot-version-updates-from-private-github-repositories/
+
+## Dependency Review
+
+[About dependency review](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-dependency-changes-in-a-pull-request#about-dependency-review). 
+
+If a pull request targets your repository's default branch and contains changes to package manifests or lock files, you can display a dependency review to see what has changed. The dependency review includes details of changes to indirect dependencies in lock files, and it tells you if any of the added or updated dependencies contain known vulnerabilities.
 
