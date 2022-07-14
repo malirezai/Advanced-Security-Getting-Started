@@ -28,6 +28,10 @@ When you push commits to a private repository with secret scanning enabled, GitH
 
 See the [Documentation](https://help.github.com/en/github/administering-a-repository/configuring-secret-scanning-for-private-repositories) on how to **configure Private Secret Scanning**.
 
+### Secret Scanning Custom Patterns
+Please see this link: https://github.com/advanced-security/secret-scanning-custom-patterns
+
+
 ## Code Scanning
 
 Code scanning is a developer-first static application security testing (SAST) product that is built into GitHub. Once configured, it scans every code change in your repository for security vulnerabilities, and flags them in the developer workflow. This makes it easy to find security vulnerabilities in your code before they ever reach production.
